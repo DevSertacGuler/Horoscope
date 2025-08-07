@@ -1,114 +1,147 @@
+
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Burç Uygulaması</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burç Uygulaması</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-indigo-50 text-gray-800 font-sans">
 
-  <!-- Top Navigation -->
-  <header class="bg-indigo-600 text-white shadow-md">
-    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-      <h1 class="text-xl font-bold" id="app-title">Burç Uygulaması</h1>
-      <div>
-        <button onclick="changeLanguage('tr')" class="px-3 py-1 rounded hover:bg-indigo-500">TR</button>
-        <button onclick="changeLanguage('en')" class="px-3 py-1 rounded hover:bg-indigo-500">EN</button>
-      </div>
-    </div>
-  </header>
+    <!-- Top Navigation -->
+    <header class="bg-indigo-600 text-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold" id="app-title">Burç Uygulaması</h1>
+            <div>
+                <button onclick="changeLanguage('tr')" class="px-3 py-1 rounded hover:bg-indigo-500">TR</button>
+                <button onclick="changeLanguage('en')" class="px-3 py-1 rounded hover:bg-indigo-500">EN</button>
+            </div>
+        </div>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="py-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4" id="hero-title">Burç Yorumlarınızı Keşfedin</h2>
-      <p class="text-lg md:text-xl max-w-2xl mx-auto" id="hero-desc">
-        Ücretsiz burç yorumları, yükselen burç hesaplama ve doğum haritanızı oluşturun!
-      </p>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="py-12 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4" id="hero-title">Burç Yorumlarınızı Keşfedin</h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto" id="hero-desc">
+                Ücretsiz burç yorumları, yükselen burç hesaplama ve doğum haritanızı oluşturun!
+            </p>
+        </div>
+    </section>
 
-  <!-- Features Section -->
-  <section class="py-12 container mx-auto px-4">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <h3 class="text-xl font-semibold mb-2" id="feature1-title">Burç Yorumları</h3>
-        <p id="feature1-desc">Günlük, haftalık ve aylık burç yorumlarınıza ulaşın.</p>
-      </div>
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <h3 class="text-xl font-semibold mb-2" id="feature2-title">Yükselen Burç</h3>
-        <p id="feature2-desc">Doğum saatinizi girerek yükselen burcunuzu öğrenin.</p>
-      </div>
-      <div class="bg-white p-6 rounded-lg shadow text-center">
-        <h3 class="text-xl font-semibold mb-2" id="feature3-title">Doğum Haritası</h3>
-        <p id="feature3-desc">Kişisel astroloji haritanızı oluşturun ve yorumlayın.</p>
-      </div>
-    </div>
-  </section>
+    <!-- Features Section -->
+    <section class="py-12 container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <h3 class="text-xl font-semibold mb-2" id="feature1-title">Burç Yorumları</h3>
+                <p id="feature1-desc">Günlük, haftalık ve aylık burç yorumlarınıza ulaşın.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <h3 class="text-xl font-semibold mb-2" id="feature2-title">Yükselen Burç</h3>
+                <p id="feature2-desc">Doğum saatinizi girerek yükselen burcunuzu öğrenin.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <h3 class="text-xl font-semibold mb-2" id="feature3-title">Doğum Haritası</h3>
+                <p id="feature3-desc">Kişisel astroloji haritanızı oluşturun ve yorumlayın.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Free Info Section -->
-  <section class="py-10 bg-indigo-100 text-center">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-semibold mb-4" id="free-title">Tamamen Ücretsiz!</h2>
-      <p class="max-w-2xl mx-auto text-lg" id="free-desc">
-        Tüm özelliklerimize sınırsız ve ücretsiz erişim sağlayın.
-      </p>
-    </div>
-  </section>
+    <!-- Free Info Section -->
+    <section class="py-10 bg-indigo-100 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold mb-4" id="free-title">Tamamen Ücretsiz!</h2>
+            <p class="max-w-2xl mx-auto text-lg" id="free-desc">
+                Tüm özelliklerimize sınırsız ve ücretsiz erişim sağlayın.
+            </p>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6 text-center">
-    <p id="footer-text">© 2025 Burç Uygulaması - Tüm hakları saklıdır.</p>
-  </footer>
+    <!-- Contact Info Section -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-semibold mb-6" id="contact-title">İletişim Bilgilerimiz</h2>
+            <div class="max-w-lg mx-auto space-y-4 text-lg">
+                <p><span class="font-semibold" id="address-label">Adres:</span> <span id="address">America / New
+                        York</span></p>
+                <p><span class="font-semibold" id="phone-label">Telefon:</span> <a href="tel:+905536878006"
+                        class="text-indigo-600 hover:underline" id="phone">+90 553 687 8006</a></p>
+                <p><span class="font-semibold" id="email-label">Email:</span> <a href="mailto:dev.sertacguler@gmail.com"
+                        class="text-indigo-600 hover:underline" id="email">dev.sertacguler@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
 
-  <!-- JavaScript for Language Switching -->
-  <script>
-    const translations = {
-      tr: {
-        "app-title": "Burç Uygulaması",
-        "hero-title": "Burç Yorumlarınızı Keşfedin",
-        "hero-desc": "Ücretsiz burç yorumları, yükselen burç hesaplama ve doğum haritanızı oluşturun!",
-        "feature1-title": "Burç Yorumları",
-        "feature1-desc": "Günlük, haftalık ve aylık burç yorumlarınıza ulaşın.",
-        "feature2-title": "Yükselen Burç",
-        "feature2-desc": "Doğum saatinizi girerek yükselen burcunuzu öğrenin.",
-        "feature3-title": "Doğum Haritası",
-        "feature3-desc": "Kişisel astroloji haritanızı oluşturun ve yorumlayın.",
-        "free-title": "Tamamen Ücretsiz!",
-        "free-desc": "Tüm özelliklerimize sınırsız ve ücretsiz erişim sağlayın.",
-        "footer-text": "© 2025 Burç Uygulaması - Tüm hakları saklıdır."
-      },
-      en: {
-        "app-title": "Horoscope App",
-        "hero-title": "Discover Your Horoscope",
-        "hero-desc": "Free horoscope readings, rising sign calculator, and birth chart creation!",
-        "feature1-title": "Horoscope Readings",
-        "feature1-desc": "Access daily, weekly, and monthly horoscope predictions.",
-        "feature2-title": "Rising Sign",
-        "feature2-desc": "Find your rising sign by entering your birth time.",
-        "feature3-title": "Birth Chart",
-        "feature3-desc": "Generate and interpret your personal astrology chart.",
-        "free-title": "Completely Free!",
-        "free-desc": "Get unlimited and free access to all features.",
-        "footer-text": "© 2025 Horoscope App - All rights reserved."
-      }
-    };
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p id="footer-text">© 2025 Burç Uygulaması - Tüm hakları saklıdır.</p>
+    </footer>
 
-    function changeLanguage(lang) {
-      document.documentElement.lang = lang;
-      const elements = document.querySelectorAll("[id]");
-      elements.forEach(el => {
-        const key = el.id;
-        if (translations[lang][key]) {
-          if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
-            el.placeholder = translations[lang][key];
-          } else {
-            el.innerText = translations[lang][key];
-          }
+    <!-- JavaScript for Language Switching -->
+    <script>
+        const translations = {
+            tr: {
+                "app-title": "Burç Uygulaması",
+                "hero-title": "Burç Yorumlarınızı Keşfedin",
+                "hero-desc": "Ücretsiz burç yorumları, yükselen burç hesaplama ve doğum haritanızı oluşturun!",
+                "feature1-title": "Burç Yorumları",
+                "feature1-desc": "Günlük, haftalık ve aylık burç yorumlarınıza ulaşın.",
+                "feature2-title": "Yükselen Burç",
+                "feature2-desc": "Doğum sahinizi girerek yükselen burcunuzu öğrenin.",
+                "feature3-title": "Doğum Haritası",
+                "feature3-desc": "Kişisel astroloji haritanızı oluşturun ve yorumlayın.",
+                "free-title": "Tamamen Ücretsiz!",
+                "free-desc": "Tüm özelliklerimize sınırsız ve ücretsiz erişim sağlayın.",
+                "contact-title": "İletişim Bilgilerimiz",
+                "address-label": "Adres:",
+                "address": "America / New York",
+                "phone-label": "Telefon:",
+                "phone": "+90 553 687 8006",
+                "email-label": "Email:",
+                "email": "dev.sertacguler@gmail.com",
+                "footer-text": "© 2025 Burç Uygulaması - Tüm hakları saklıdır."
+            },
+            en: {
+                "app-title": "Horoscope App",
+                "hero-title": "Discover Your Horoscope",
+                "hero-desc": "Free horoscope readings, rising sign calculator, and birth chart creation!",
+                "feature1-title": "Horoscope Readings",
+                "feature1-desc": "Access daily, weekly, and monthly horoscope predictions.",
+                "feature2-title": "Rising Sign",
+                "feature2-desc": "Find your rising sign by entering your birth time.",
+                "feature3-title": "Birth Chart",
+                "feature3-desc": "Generate and interpret your personal astrology chart.",
+                "free-title": "Completely Free!",
+                "free-desc": "Get unlimited and free access to all features.",
+                "contact-title": "Contact Information",
+                "address-label": "Address:",
+                "address": "America / New York",
+                "phone-label": "Phone:",
+                "phone": "+90 553 687 8006",
+                "email-label": "Email:",
+                "email": "dev.sertacguler@gmail.com",
+                "footer-text": "© 2025 Horoscope App - All rights reserved."
+            }
+        };
+
+        function changeLanguage(lang) {
+            document.documentElement.lang = lang;
+            const elements = document.querySelectorAll("[id]");
+            elements.forEach(el => {
+                const key = el.id;
+                if (translations[lang][key]) {
+                    if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+                        el.placeholder = translations[lang][key];
+                    } else {
+                        el.innerText = translations[lang][key];
+                    }
+                }
+            });
         }
-      });
-    }
-  </script>
+    </script>
 </body>
+
 </html>
